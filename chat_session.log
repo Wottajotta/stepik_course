@@ -1,0 +1,17 @@
+2025-12-15 01:39:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-15 01:41:39 [INFO] User: Расскажи мне о товаре "Guinness", говорят, оно стоит больше 1000 - правда?
+2025-12-15 01:41:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-15 01:41:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-15 01:41:41 [INFO] Bot: {"name":"Guinness","price":999,"quantity":5}
+2025-12-15 01:41:49 [INFO] User: Расскажи мне о товаре "Guinnies", говорят, оно стоит больше 1000 - правда? Сколько их сейчас в наличии?
+2025-12-15 01:41:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-15 01:41:51 [INFO] Bot: {"name":"Guinnies","price":999,"quantity":5}
+2025-12-15 01:41:57 [INFO] User: Явлется ли Ginnues самым ликвидным товаром
+2025-12-15 01:41:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-15 01:41:58 [INFO] Bot: {"name":"Ginnues","price":500,"quantity":5}
+2025-12-15 01:42:36 [INFO] User: Расскажи мне о товаре "Guinness", говорят, оно стоит больше 1000 - правда? Сколько их сейчас в наличии?
+2025-12-15 01:42:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-15 01:42:37 [INFO] Bot: {"name":"Guinness","price":1000,"quantity":5,"raiting":4}
+2025-12-15 01:42:47 [INFO] User: Привет! Расскажи мне о самом популярном товаре здесь?
+2025-12-15 01:42:49 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-15 01:42:49 [INFO] Bot: {"name":"iPhone 12","price":899,"quantity":5,"raiting":5}
