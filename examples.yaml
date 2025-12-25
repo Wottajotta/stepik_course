@@ -1,0 +1,25 @@
+examples:
+  - programming_language: Python
+    theoretical_question: "What is Python and how to print a message?"
+    theoretical_knowledge: "Python is an interpreted, high-level, general-purpose programming language."
+    code_example: "print('Hello, World!')"
+
+  - programming_language: JavaScript
+    theoretical_question: "What is JavaScript and how to print a message?"
+    theoretical_knowledge: "JavaScript is a versatile language primarily used for web development."
+    code_example: "console.log('Hello, World!');"
+
+  - programming_language: Java
+    theoretical_question: "What is Java and how to print a message?"
+    theoretical_knowledge: "Java is a class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
+    code_example: "System.out.println('Hello, World!');"
+
+  - programming_language: C++
+    theoretical_question: "What is C++ and how to print a message?"
+    theoretical_knowledge: "C++ is a general-purpose programming language created as an extension of the C programming language, with object-oriented features."
+    code_example: |
+      #include <iostream>
+      int main() {{
+       std::cout << "Hello, World!";
+       return 0;
+      }}
