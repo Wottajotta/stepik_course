@@ -1,0 +1,104 @@
+[
+  {
+    "order_id": 1001,
+    "status": "processing",
+    "created_at": "2025-01-10",
+    "total_amount": 4590,
+    "currency": "RUB",
+    "payment_method": "card",
+    "delivery_method": "courier",
+    "customer": {
+      "name": "Иван Петров",
+      "email": "ivan.petrov@example.com"
+    }
+  },
+  {
+    "order_id": 1002,
+    "status": "shipped",
+    "created_at": "2025-01-11",
+    "total_amount": 3120,
+    "currency": "RUB",
+    "payment_method": "sbp",
+    "delivery_method": "pickup_point",
+    "tracking_number": "TRK123456789"
+  },
+  {
+    "order_id": 1003,
+    "status": "delivered",
+    "created_at": "2025-01-08",
+    "total_amount": 7990,
+    "currency": "RUB",
+    "payment_method": "card",
+    "delivery_method": "courier"
+  },
+  {
+    "order_id": 1004,
+    "status": "cancelled",
+    "created_at": "2025-01-09",
+    "total_amount": 2150,
+    "currency": "RUB",
+    "payment_method": "card",
+    "delivery_method": "courier",
+    "cancel_reason": "Отмена по запросу клиента"
+  },
+  {
+    "order_id": 1005,
+    "status": "processing",
+    "created_at": "2025-01-12",
+    "total_amount": 12990,
+    "currency": "RUB",
+    "payment_method": "invoice",
+    "delivery_method": "courier",
+    "company": {
+      "name": "ООО Альфа",
+      "inn": "7701234567"
+    }
+  },
+  {
+    "order_id": 1006,
+    "status": "returned",
+    "created_at": "2025-01-05",
+    "total_amount": 3490,
+    "currency": "RUB",
+    "payment_method": "card",
+    "delivery_method": "pickup_point",
+    "return_reason": "Не подошёл размер"
+  },
+  {
+    "order_id": 1007,
+    "status": "shipped",
+    "created_at": "2025-01-13",
+    "total_amount": 5890,
+    "currency": "RUB",
+    "payment_method": "cash_on_delivery",
+    "delivery_method": "courier",
+    "tracking_number": "TRK987654321"
+  },
+  {
+    "order_id": 1008,
+    "status": "processing",
+    "created_at": "2025-01-14",
+    "total_amount": 2690,
+    "currency": "RUB",
+    "payment_method": "gift_card",
+    "delivery_method": "pickup_point"
+  },
+  {
+    "order_id": 1009,
+    "status": "delivered",
+    "created_at": "2025-01-06",
+    "total_amount": 9990,
+    "currency": "RUB",
+    "payment_method": "card",
+    "delivery_method": "courier"
+  },
+  {
+    "order_id": 1010,
+    "status": "processing",
+    "created_at": "2025-01-15",
+    "total_amount": 4190,
+    "currency": "RUB",
+    "payment_method": "sbp",
+    "delivery_method": "courier"
+  }
+]
